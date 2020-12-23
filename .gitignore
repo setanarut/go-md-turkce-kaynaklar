@@ -53,6 +53,7 @@ Temporary Items
 .apdisk
 
 ### vscode ###
+styles.css
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
