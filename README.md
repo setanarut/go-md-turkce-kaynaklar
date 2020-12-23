@@ -1,3 +1,4 @@
-# Go Programlama Dili (E-Kitap)
+# Go Programlama Dili - Kaan Kuşçu
 
-![kapak](./goruntuler/kapak.png)
+![kapak](./go-programlama-dili/goruntuler/kapak.png)
+
