@@ -1,4 +1,6 @@
-# Go Programlama Dili - Kaan Kuşçu
+# Go Programlama Dili - Türkçe Kaynaklar
 
-![kapak](./go-programlama-dili/goruntuler/kapak.png)
 
+- [Küçük Go Kitabı - Karl Seguin](./kucuk-go-kitabi/kucuk_go_kitabi.md)
+
+- [Go Programlama Dili - Kaan Kuşçu](./go-programlama-dili/01-kitap-hakkinda.md)
