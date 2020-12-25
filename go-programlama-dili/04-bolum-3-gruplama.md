@@ -1,3 +1,15 @@
+- [Bölüm 3 - Gruplama](#bölüm-3---gruplama)
+	- [Struct](#struct)
+		- [İsim Belirterek Tanımlama](#i̇sim-belirterek-tanımlama)
+	- [Anonim Struct'lar](#anonim-structlar)
+	- [Struct Fonksiyonlar \(Methodlar\)](#struct-fonksiyonlar-methodlar)
+	- [Pointers \(İşaretçiler\)](#pointers-i̇şaretçiler)
+	- [Arrays (Diziler)](#arrays-diziler)
+	- [Slices (Dilimler)](#slices-dilimler)
+	- [Range](#range)
+	- [Map](#map)
+	- [Interface (Arayüz)](#interface-arayüz)
+
 # Bölüm 3 - Gruplama
 
 ## Struct

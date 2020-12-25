@@ -1,3 +1,19 @@
+- [GUI (Grafiksel Kullanıcı Arayüzü)](#gui-grafiksel-kullanıcı-arayüzü)
+	- [WebView](#webview)
+		- [**Frontend’den Backend’e Veri Gönderme \(JavaScript ===&gt; Go\)**](#frontendden-backende-veri-gönderme-javascript--go)
+		- [**Backend’den Frontend’e Veri Gönderme \(Go ===&gt; JavaScript\)**](#backendden-frontende-veri-gönderme-go--javascript)
+		- [Golang ile Webview'a Asenkron Müdahale Etme](#golang-ile-webviewa-asenkron-müdahale-etme)
+		- [Webview Kütüphanesindeki Diğer Fonksiyonlar](#webview-kütüphanesindeki-diğer-fonksiyonlar)
+			- [Destroy\(\)](#destroy)
+			- [Terminate\(\)](#terminate)
+			- [Eval\(\)](#eval)
+			- [Init\(\)](#init)
+			- [Navigate\(\)](#navigate)
+			- [Run\(\)](#run)
+			- [SetSize\(\)](#setsize)
+			- [SetTitle\(\)](#settitle)
+	- [notify \(Bildirim\)](#notify-bildirim)
+
 # GUI (Grafiksel Kullanıcı Arayüzü)
 
 ## WebView

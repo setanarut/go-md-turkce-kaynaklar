@@ -1,3 +1,17 @@
+- [Bölüm 4 - Eşzamanlılık](#bölüm-4---eşzamanlılık)
+	- [Goroutine](#goroutine)
+		- [Terimler](#terimler)
+			- [Ana iş parçacığı](#ana-iş-parçacığı)
+			- [Eşzamanlılık](#eşzamanlılık)
+		- [Eşzamanlı Bir İşlem Oluşturalım](#eşzamanlı-bir-i̇şlem-oluşturalım)
+	- [Kanallar \(Channels\)](#kanallar-channels)
+		- [Boyutlu Kanal Oluşturma](#boyutlu-kanal-oluşturma)
+	- [Anonim Goroutine Fonksiyonlar](#anonim-goroutine-fonksiyonlar)
+	- [WaitGroup ile Asenkron İşlemleri Beklemek](#waitgroup-ile-asenkron-i̇şlemleri-beklemek)
+	- [Mutex ile Asenkron İşlem Sırası](#mutex-ile-asenkron-i̇şlem-sırası)
+	- [Zamanlayıcılar \(Tickers\)](#zamanlayıcılar-tickers)
+	- [Select](#select)
+
 # Bölüm 4 - Eşzamanlılık
 
 ## Goroutine

@@ -1,3 +1,13 @@
+- [Bölüm 2 - İşlem Yapma](#bölüm-2---i̇şlem-yapma)
+	- [Fonksiyonlar](#fonksiyonlar)
+	- [Fonksiyon Çeşitleri](#fonksiyon-çeşitleri)
+	- [Anonim Fonksiyonlar](#anonim-fonksiyonlar)
+	- [Boş Tanımlayıcılar](#boş-tanımlayıcılar)
+	- [Döngüler](#döngüler)
+	- [If-Else](#if-else)
+	- [Switch](#switch)
+	- [Defer](#defer)
+
 # Bölüm 2 - İşlem Yapma
 
 ## Fonksiyonlar

@@ -1,3 +1,15 @@
+- [Bölüm 5](#bölüm-5)
+  - [init\(\) Fonksiyonu \(Ön Yükleme\)](#init-fonksiyonu-ön-yükleme)
+  - [Import \(Kütüphane Ekleme\) Yöntemleri](#import-kütüphane-ekleme-yöntemleri)
+  - [Dışa Aktarma \(Exporting\)](#dışa-aktarma-exporting)
+  - [Print Fonksiyonu Birkaç İnceleme](#print-fonksiyonu-birkaç-i̇nceleme)
+  - [Format ve Kaçış Karakterleri](#format-ve-kaçış-karakterleri)
+  - [Çok Satırlı String Oluşturma](#çok-satırlı-string-oluşturma)
+  - [Sprintf](#sprintf)
+  - [Golang'te Kullanıcıdan Giriş Alma](#golangte-kullanıcıdan-giriş-alma)
+  - [Testing \(Test Etme\)](#testing-test-etme)
+  - [Panic & Recover](#panic--recover)
+
 # Bölüm 5
 
 ## init\(\) Fonksiyonu \(Ön Yükleme\)

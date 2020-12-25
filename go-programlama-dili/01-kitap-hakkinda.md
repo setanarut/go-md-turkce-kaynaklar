@@ -1,3 +1,9 @@
+- [Kitap Hakkında](#kitap-hakkında)
+  - [Bu Kitap Kimlere Hitap Ediyor?](#bu-kitap-kimlere-hitap-ediyor)
+  - [Kitabın Amacı](#kitabın-amacı)
+  - [Kitap Lisansı](#kitap-lisansı)
+  - [Katkıda Bulunanlar](#katkıda-bulunanlar)
+
 # Kitap Hakkında
 
 Bu eğitim kaynağında Golang programlama dili hakkında bilgilerdirici ön yazı, kullanım şekline ve örneklerine bakacağız. Bu kitapla pratik yapabilirsiniz. Kitap ileri seviye Go programlama içermeyecektir.

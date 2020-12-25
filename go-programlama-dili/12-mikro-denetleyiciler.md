@@ -1,3 +1,11 @@
+- [Mikro-denetleyiciler](#mikro-denetleyiciler)
+  - [Gobot ile Arduino Yanıp-Sönen LED Yapımı](#gobot-ile-arduino-yanıp-sönen-led-yapımı)
+  - [Tinygo ile Küçük Yerler için Golang](#tinygo-ile-küçük-yerler-için-golang)
+      - [GNU/Linux](#gnulinux)
+      - [**Windows**](#windows)
+      - [MacOS](#macos)
+      - [Kurulum Sonrası](#kurulum-sonrası)
+
 # Mikro-denetleyiciler
 
 ## Gobot ile Arduino Yanıp-Sönen LED Yapımı

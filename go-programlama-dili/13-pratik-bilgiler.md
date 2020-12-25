@@ -1,3 +1,13 @@
+- [Pratik Bilgiler](#pratik-bilgiler)
+	- [Go Geliştiricileri için Makefile](#go-geliştiricileri-için-makefile)
+	- [Derleme \(Build\) Detayını Görme](#derleme-build-detayını-görme)
+	- [Visual Studio Code için Golang Özelleştirmeleri](#visual-studio-code-için-golang-özelleştirmeleri)
+		- [Canlı Hata Ayıklama](#canlı-hata-ayıklama)
+		- [Go Yazarken Kullanabileceğiniz VSCode Eklentileri](#go-yazarken-kullanabileceğiniz-vscode-eklentileri)
+			- [ErrorLens](#errorlens)
+			- [Better Comments](#better-comments)
+	- [İşletim Sistemini Görme](#i̇şletim-sistemini-görme)
+
 # Pratik Bilgiler
 
 ## Go Geliştiricileri için Makefile
