@@ -16,9 +16,9 @@
 	- [Strconv \(String Çeviri\)](#strconv-string-çeviri)
 	- [Log \(Kayıt\)](#log-kayıt)
 	- [Paket \(Kütüphane\) Yazmak](#paket-kütüphane-yazmak)
-			- [Bir Paketin Özellikleri](#bir-paketin-özellikleri)
-			- [Proje Klasöründe Yerel Kütüphane Oluşturma](#proje-klasöründe-yerel-kütüphane-oluşturma)
-			- [Git Sisteminde Kütüphane Paylaşımı](#git-sisteminde-kütüphane-paylaşımı)
+		- [Bir Paketin Özellikleri](#bir-paketin-özellikleri)
+		- [Proje Klasöründe Yerel Kütüphane Oluşturma](#proje-klasöründe-yerel-kütüphane-oluşturma)
+		- [Git Sisteminde Kütüphane Paylaşımı](#git-sisteminde-kütüphane-paylaşımı)
 
 # Bölüm 6 - Paketler
 
@@ -604,7 +604,7 @@ panic mesajı programı direkt sonlandırır. panic mesajını daha üste yazara
 
 Bu bölümde Go üzerinde nasıl kendi paketimizi \(kütüphanemizi\) oluşturacağımıza bakacağız.
 
-#### Bir Paketin Özellikleri
+### Bir Paketin Özellikleri
 
 * İçerisinde `.go` dosyaları bulunan bir klasördür.
 * Diğer projeler tarafından içe aktarılabilir.
@@ -615,7 +615,7 @@ Bu bölümde Go üzerinde nasıl kendi paketimizi \(kütüphanemizi\) oluşturac
 
 Paket oluştururken dikkat etmemiz gereken prensipler vardır. Bunlar şık ve basit kod yazımı, dışarıdan kullanımı basit, mümkün olduğunca diğer paketlere bağımsız olmasıdır. Bu prensiplere dikkat ederek daha iyi bir paket yazabilirsiniz.
 
-#### Proje Klasöründe Yerel Kütüphane Oluşturma
+### Proje Klasöründe Yerel Kütüphane Oluşturma
 
 Öncelikle aşağıdaki gibi bir dosya düzenimiz olduğunu varsayalım.
 
@@ -653,7 +653,7 @@ func main() {
 
 `Yaz()` fonksiyonumuzu ise `p.Yaz()` şeklinde kullandık.
 
-#### Git Sisteminde Kütüphane Paylaşımı
+### Git Sisteminde Kütüphane Paylaşımı
 
 Oluşturduğumuz kütüphaneyi Github, Gitlab, Bitbucket vb. sitelerde barındırarak diğer geliştiricilerinde kütüphanelerinizden faydalanmasını sağlayabilirsiniz.
 

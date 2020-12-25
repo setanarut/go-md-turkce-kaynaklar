@@ -8,7 +8,7 @@
 	- [JSON Parsing \(Ayrıştırma\)](#json-parsing-ayrıştırma)
 	- [ini Dosyası Okuma ve Düzenleme](#ini-dosyası-okuma-ve-düzenleme)
 	- [Web Scrapper \(goquery\)](#web-scrapper-goquery)
-			- [Web Scrapper Nedir?](#web-scrapper-nedir)
+		- [Web Scrapper Nedir?](#web-scrapper-nedir)
 	- [chromedp \(Web Driver\)](#chromedp-web-driver)
 		- [Örnek.1](#örnek1)
 		- [Örnek.2](#örnek2)
@@ -568,7 +568,7 @@ func main() {
 
 Bu yazıda Go dilinde nasıl basitçe web scrapper yapacağımıza bakacağız.
 
-#### Web Scrapper Nedir?
+### Web Scrapper Nedir?
 
 Web Scrapper bir web sayfasındaki elementleri işleyen araçtır.
 
