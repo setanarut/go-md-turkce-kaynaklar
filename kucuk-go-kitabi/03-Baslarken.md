@@ -26,7 +26,7 @@ Dosyayı `/usr/local` klasörü altına `tar -C /usr/local -xzf go#.#.#.darwin-a
 
 Bunları bir kabuktan aşağıdaki gibi ayarlayabilirsiniz:
 
-```
+```shell
 echo 'export GOPATH=$HOME/code/go' >> $HOME/.profile
 echo 'export PATH=$PATH:/usr/local/go/bin' >> $HOME/.profile
 ```
