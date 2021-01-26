@@ -11,7 +11,7 @@
 
 ## Diziler
 
-Python, Ruby, Perl, JavaScript veya PHP'den (ve daha fazlasından) geliyorsanız, muhtemelen _dinamik dizilerle_ programlama yapmaya alışıksınızdır. Bunlar, veri eklendikçe kendilerini yeniden boyutlandıran dizilerdir. Go'da diğer birçok dil gibi diziler de sabittir. Bir dizinin tanımlanması için boyutu belirtmemizi gerektirir ve boyut belirtildikten sonra dizi büyüyemez:
+Python, Ruby, Perl, JavaScript veya PHP'den (ve daha fazlasından) geliyorsanız, muhtemelen *dinamik dizilerle* programlama yapmaya alışıksınızdır. Bunlar, veri eklendikçe kendilerini yeniden boyutlandıran dizilerdir. Go'da diğer birçok dil gibi diziler de sabittir. Bir dizinin tanımlanması için boyutu belirtmemizi gerektirir ve boyut belirtildikten sonra dizi büyüyemez:
 
 ```go
 var scores [10]int
@@ -56,7 +56,7 @@ scores := make([]int, 10)
 scores := make([]int, 0, 10)
 ```
 
-Bu 0 uzunluğunda sahip ama 10 kapasiteli bir dilim oluşturur. (Eğer dikkat ettiyseniz, `make` ve `len` işlevlerine Go yeni bir görev _yüklemiş_ durumda. Bu bazılarını çok kızdırıyor ama Go geliştiricilerin kullanımına açık olmayan özellikleri bazen kendi kullanan bir dildir.)
+Bu 0 uzunluğunda sahip ama 10 kapasiteli bir dilim oluşturur. (Eğer dikkat ettiyseniz, `make` ve `len` işlevlerine Go yeni bir görev *yüklemiş* durumda. Bu bazılarını çok kızdırıyor ama Go geliştiricilerin kullanımına açık olmayan özellikleri bazen kendi kullanan bir dildir.)
 
 Uzunluk ve kapasite arasındaki etkileşimi daha iyi anlamak için bazı örneklere bakalım:
 
@@ -89,7 +89,7 @@ func main() {
 }
 ```
 
-Bir dilimi en fazla ne kadar boyutlandırabiliriz? Bu durumda 10 olan dizi kapasitesine kadar. Bunun _dizilerin sabit uzunluklu sorununu gerçekten çözmediğini_ düşünüyor olabilirsiniz. `append ` oldukça özel işlev. Altta yatan dizi doluysa, yeni daha büyük bir dizi oluşturur ve değerleri kopyalar (bu tam olarak PHP, Python, Ruby, JavaScript, vb dillerde dinamik dizilerin çalışma şeklidir). Bu nedenle, `append` kullanılan yukarıdaki örnekte, `append` tarafından döndürülen değeri `scores` değişkenimize yeniden atamak zorunda kaldık, çünkü `append` orijinalde daha fazla yer yoksa yeni bir değer yaratmış olabilir.
+Bir dilimi en fazla ne kadar boyutlandırabiliriz? Bu durumda 10 olan dizi kapasitesine kadar. Bunun *dizilerin sabit uzunluklu sorununu gerçekten çözmediğini* düşünüyor olabilirsiniz. `append ` oldukça özel işlev. Altta yatan dizi doluysa, yeni daha büyük bir dizi oluşturur ve değerleri kopyalar (bu tam olarak PHP, Python, Ruby, JavaScript, vb dillerde dinamik dizilerin çalışma şeklidir). Bu nedenle, `append` kullanılan yukarıdaki örnekte, `append` tarafından döndürülen değeri `scores` değişkenimize yeniden atamak zorunda kaldık, çünkü `append` orijinalde daha fazla yer yoksa yeni bir değer yaratmış olabilir.
 
 Size Go'nun 2x algoritmasıyla diziler oluşturduğunu söylersem, aşağıdaki kodda ne olacağını tahmin edebilir misiniz?
 
@@ -198,7 +198,7 @@ Go'da dilimleri kullanırız:
 strings.Index(haystack[5:], " ")
 ```
 
-Yukarıdaki örnekten görebiliyoruz ki, `[X:]` _X'ten sonuna kadar_ kısayolu iken, `[:X]` _başından X'e kadar_ kısayoludur. Diğer dillerden farklı olarak, Go negatif değerleri desteklemez. Sonuncusu hariç bir dilimin tüm değerlerini istiyorsak şunu yaparız:
+Yukarıdaki örnekten görebiliyoruz ki, `[X:]` *X'ten sonuna kadar* kısayolu iken, `[:X]` *başından X'e kadar* kısayoludur. Diğer dillerden farklı olarak, Go negatif değerleri desteklemez. Sonuncusu hariç bir dilimin tüm değerlerini istiyorsak şunu yaparız:
 
 ```go
 scores := []int{1, 2, 3, 4, 5}
@@ -333,10 +333,11 @@ b := make([]*Saiyan, 10)
 
 Birçok geliştirici, `b`'i bir işleve geçmenin veya bir işlevden geri döndürmenin daha verimli olacağını düşünmektedir. Ancak, dilimin kendisi bir işaretçi olduğu için kopyası da bir işaretçidir. Dilimin kendisinin geçilmesinin ve ya geri döndürülmesinin bu açıdan bir farkı yoktur.
 
-Farkı göreceğiniz yer, bir dilim veya eşlemenin değerlerini değiştirdiğiniz zamandır. Bu noktada, Bölüm 2'de gördüğümüz aynı mantık geçerlidir. Dolayısıyla, bir değer dizisine karşı bir işaretçi dizisinin tanımlanıp tanımlanmayacağına karar vermek, diziyi veya eşlemeyi nasıl kullandığınızla değil, tek tek değerleri nasıl kullandığınızla ilgilidir.
+Farkı göreceğiniz yer, bir dilim veya eşlemenin değerlerini değiştirdiğiniz zamandır. Bu noktada, Bölüm 2'de gördüğümüz aynı mantık geçerlidir. Dolayısıyla, bir değer dizisine karşı bir işaretçi dizisinin tanımlanıp tanımlanmayacağına karar vermek, diziyi veya eşlemeyş nasıl kullandığınızla değil, tek tek değerleri nasıl kullandığınızla ilgilidir.
 
 ## Devam Etmeden Önce
 
 Go'daki diziler ve eşlemeler diğer dillerde olduğu gibi çalışır. Dinamik dizilere alışkınsanız, küçük değişiklikler gerekebilir, ancak `append` rahatsızlığınızın çoğunu çözebilidir. Dizilerin yüzeysel sözdiziminin ve kullanımının ötesine bakarsak, dilimleri buluruz. Dilimler güçlüdür ve kodunuzun netliği üzerinde şaşırtıcı derecede büyük bir etkiye sahiptirler.
 
 Bahsetmediğimiz bazı uç durumlar var, ancak bunlarla karşılaşmanız muhtemel değil. Ve eğer yaparsanız, umarım burada inşa ettiğimiz temeller neler olup bittiğini anlamanıza yardımcı olur.
+
