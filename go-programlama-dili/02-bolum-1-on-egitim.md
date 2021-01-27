@@ -1052,7 +1052,7 @@ Yukarıda **import** ettiğimiz **fmt** kütüphanesi içinden **Println** fonks
 
 Ama makine \(bilgisayar\) bu yazdıklarımızı anlamaz. O yüzden her derlenen dilde olduğu gibi Golang’ın da yazdıklarımızı makinenin anlayacağı makine diline çeviren derleyicisi vardır.
 
-Makinemiz üzerinde çalıştırılabilir bir dosya üretmek için kodlarımızın derlenmesi gereklidir. Vscode üzerinden kodlarımızın derlenip çalışması için **F5** tuşuna basıyoruz. Böylece programımızı test edebiliriz. Eğer vscode üzerinden derliyorsanız yazdığımız kodların hemen altında **DEBUG CONSOLE** bölümünde kodumuzun sonuç çıktısını görebiliriz.
+Makinemiz üzerinde çalıştırılabilir bir dosya üretmek için kodlarımızın derlenmesi gereklidir. Vscode üzerinden kodlarımızın derlenip çalışması için `F5` tuşuna basıyoruz. Böylece programımızı test edebiliriz. Eğer vscode üzerinden derliyorsanız yazdığımız kodların hemen altında **DEBUG CONSOLE** bölümünde kodumuzun sonuç çıktısını görebiliriz.
 
 Çıktımızı inceleyecek olursak, **API server listening at :127.0.0.1:44830** ibaresinde gerçekleşen olay, Golang kodlarımızı çalıştırdığımızda oluşturulan **44830** portlu **127.0.0.1** yerel sunucusu \(localhost\) üzerinden kodlarımızın sürüş testini gerçekleştirdik. Hemen aşağısına da çıktımızı verdi.
 
@@ -1076,7 +1076,7 @@ Böylece ilk uygulamamızı yazmış olduk. Tabi şu ana kadar görmemiş olduğ
 
 ## VSCode Varsayılan Hata Ayıklayıcıyı Seçme
 
-VSCode Go programlama yapıyorken, **F5** tuşuna bastığınızda üst tarafta hata ayıklayıcıyı seçmenizi ister. Her **F5** tuşuna bastığınızda hata ayıklayıcı seçim ekranı çıksın istemiyorsanız, yani herzaman bir hata ayıklayıcıyı kullansız istiyorsanız, yapacaklarınız çok basit.
+VSCode Go programlama yapıyorken, `F5` tuşuna bastığınızda üst tarafta hata ayıklayıcıyı seçmenizi ister. Her `F5` tuşuna bastığınızda hata ayıklayıcı seçim ekranı çıksın istemiyorsanız, yani herzaman bir hata ayıklayıcıyı kullansız istiyorsanız, yapacaklarınız çok basit.
 
 VSCode üzerinde ekranın sol tarafından Run sekmesine geçelim.
 
