@@ -1,5 +1,6 @@
 # Go Programlama Dili - Türkçe Kaynaklar
 
+Bu depo https://codeberg.org/setanarut/go-md-turkce-kaynaklar adresine taşınmıştır. Orada devam edecektir.
 
 1. [Küçük Go Kitabı - Karl Seguin](./kucuk-go-kitabi/README.md)
 2. [Proje Yerleşim Düzeni](./proje_yerleşim_düzeni_tr.md)
